@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+#logo {
+	width: 30%;
+	margin-top: 41px;
+}
+#expand-toggle:checked ~ * .expandable {
+  visibility: visible;
+}
+
+.expandable {
+  visibility: collapse;
+}
+
+#expand-toggle-fahrenheit:checked ~ * .expandable-fahrenheit {
+  visibility: visible;
+}
+
+.expandable-fahrenheit {
+  visibility: collapse;
+}
+
+#expand-toggle-celsius:checked ~ * .expandable-celsius {
+  visibility: visible;
+}
+
+.expandable-celsius {
+  visibility: collapse;
+}
+
